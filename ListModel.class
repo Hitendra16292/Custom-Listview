@@ -8,7 +8,6 @@ public class ListModel {
 	private  String Url="";
 	public ProgressBar bar;
 	
-	/*********** Set Methods ******************/
 	public void setCompanyName(String CompanyName)
 	{
 		this.CompanyName = CompanyName;
@@ -24,7 +23,6 @@ public class ListModel {
 		this.Url = Url;
 	}
 	
-	/*********** Get Methods ****************/
 	public String getCompanyName()
 	{
 		return this.CompanyName;
